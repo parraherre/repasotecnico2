@@ -1,0 +1,39 @@
+.banner{
+
+    background-image: url("../img/banner.jpg");
+    background-position: top center;
+    background-size: cover;
+    padding: 25% 10% 30% 5%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+}
+
+.banner::after{
+
+    content: '';
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.0;
+    z-index: -1;
+
+}
+
+.menuPrincipal{
+
+    background-color: transparent !important;
+    transition: 1s;
+
+}
+
+.menuSegundario{
+
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+
+}
